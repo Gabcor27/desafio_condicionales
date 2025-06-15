@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>GOT Sticker Selector</title>
+  <link rel="stylesheet" href="./assets/css/style1.css">
+</head>
+<body>
+
+  <div class="contenedor">
+    <h1>Felicidades ya puedes elegir tus stickers de GOT para esta semana</h1>
+    <p>Máximo 10 stickers entre los siguientes personajes:</p>
+
+    <div class="stickers">
+      <div class="sticker">
+        <img src="./assets/img/got3.png" alt="Jon Snow">
+        <input type="number" id="input1" min="0" max="10">
+      </div>
+
+      <div class="sticker">
+        <img src="./assets/img/got2.png" alt="Daenerys Targaryen">
+        <input type="number" id="input2" min="0" max="10">
+      </div>
+
+      <div class="sticker">
+        <img src="./assets/img/got1.png" alt="Tyrion Lannister">
+        <input type="number" id="input3" min="0" max="10">
+      </div>
+    </div>
+
+    <button onclick="verificarStickers()">Verificar</button>
+    <p id="resultado"></p>
+  </div>
+
+  <script src="./assets/js/main1.js"></script>
+</body>
+</html>
